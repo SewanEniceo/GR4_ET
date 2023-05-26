@@ -9,6 +9,10 @@ model=load_model()
 st.write("""
 # Card Classification System by Group 4 """
 )
+st.text("Members:")
+st.text("Eniceo, Sean Paolo")
+st.text("Fernandez, Rhenz")
+st.text("Sabio, Jedawn")
 file=st.file_uploader("Choose card photo from computer",type=["jpg","png"])
 
 import cv2
@@ -21,9 +25,7 @@ def import_and_predict(image_data,model):
     img_reshape=img[np.newaxis,...]
     prediction=model.predict(img_reshape)
     return prediction
-st.text("Eniceo, Sean Paolo")
-st.text("Fernandez, Rhenz")
-st.text("Sabio, Jedawn")
+
 if file is None:
     st.text("Please upload an image file")
 else:
