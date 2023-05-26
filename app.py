@@ -9,6 +9,7 @@ model=load_model()
 st.write("""
 # Card Classification System by Group 4 """
 )
+st.text(" Course and Section: CPE 019 - CPE32S3")
 st.text(" Members:")
 st.text(" Eniceo, Sean Paolo")
 st.text(" Fernandez, Rhenz")
