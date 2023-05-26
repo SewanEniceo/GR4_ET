@@ -7,6 +7,6 @@ Emerging Technologies 2 (CPE 019)
 CPE32S3
 
 Submitted by Group 4 
-Eniceo, Sean Paolo 
-Fernandez, Rhenz
+Eniceo, Sean Paolo <br>
+Fernandez, Rhenz <br>
 Sabio, Jedawn
