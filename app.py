@@ -7,7 +7,7 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Card Detection System by Group 4"""
+# Card Classification System by Group 4"""
 )
 file=st.file_uploader("Choose card photo from computer",type=["jpg","png"])
 
