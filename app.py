@@ -7,7 +7,10 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Card Classification System by Group 4"""
+# Card Classification System by Group 4 <br>
+Eniceo, Sean Paolo <br>
+Fernandez, Rhenz <br>
+Sabio, Jedawn"""
 )
 file=st.file_uploader("Choose card photo from computer",type=["jpg","png"])
 
