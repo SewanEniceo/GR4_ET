@@ -9,10 +9,10 @@ model=load_model()
 st.write("""
 # Card Classification System by Group 4 """
 )
-st.text("# Members:")
-st.text("# Eniceo, Sean Paolo")
-st.text("# Fernandez, Rhenz")
-st.text("# Sabio, Jedawn")
+st.text("" Members:"")
+st.text("" Eniceo, Sean Paolo"")
+st.text("" Fernandez, Rhenz"")
+st.text("" Sabio, Jedawn"")
 file=st.file_uploader("Choose card photo from computer",type=["jpg","png"])
 
 import cv2
