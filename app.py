@@ -14,6 +14,7 @@ st.text(" Members:")
 st.text(" Eniceo, Sean Paolo")
 st.text(" Fernandez, Rhenz")
 st.text(" Sabio, Jedawn")
+st.text(" Instructor: Engr. Roman M. Richard")
 file=st.file_uploader("Choose card photo from computer",type=["jpg","png"])
 
 import cv2
